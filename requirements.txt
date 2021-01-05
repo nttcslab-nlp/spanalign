@@ -1,0 +1,24 @@
+certifi==2020.12.5; python_full_version >= "3.6.0"
+chardet==4.0.0; python_full_version >= "3.6.0"
+click==7.1.2; python_full_version >= "3.6.0"
+filelock==3.0.12; python_full_version >= "3.6.0"
+h5py==2.10.0
+idna==2.10; python_full_version >= "3.6.0"
+joblib==1.0.0; python_version >= "3.6" and python_full_version >= "3.6.0"
+numpy==1.19.4; python_version >= "3.6" and python_full_version >= "3.6.2"
+packaging==20.8; python_full_version >= "3.6.0"
+protobuf==3.14.0
+pyparsing==2.4.7; python_full_version >= "3.6.0"
+regex==2020.11.13; python_full_version >= "3.6.0"
+requests==2.25.1; python_full_version >= "3.6.0"
+sacremoses==0.0.43
+sentencepiece==0.1.94
+six==1.15.0; python_full_version >= "3.6.0"
+tabulate==0.8.7
+tensorboardx==2.1
+tokenizers==0.9.4; python_full_version >= "3.6.0"
+torch @ https://download.pytorch.org/whl/cu101/torch-1.7.1%2Bcu101-cp38-cp38-linux_x86_64.whl ; python_full_version >= "3.6.2"
+tqdm==4.54.1; (python_version >= "2.7" and python_full_version < "3.0.0") or (python_full_version >= "3.4.0")
+transformers==4.1.1; python_full_version >= "3.6.0"
+typing-extensions==3.7.4.3; python_full_version >= "3.6.2"
+urllib3==1.26.2; python_full_version >= "3.6.0" and python_version < "4"

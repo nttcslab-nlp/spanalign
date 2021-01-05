@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "spanalign"
+version = "0.1.0"
+description = "The code described in \"SpanAlign: Sentence Alignment Method based on Cross-Language Span Prediction and ILP\" published at COLING'20."
+authors = ["Katsuki Chousa <katsuki.chousa.bg@hco.ntt.co.jp>"]
+license = "NTT License"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+sacremoses = "^0.0.43"
+transformers = "^4.1.1"
+tqdm = "^4.54.1"
+tensorboardX = "^2.1"
+sentencepiece = "^0.1.94"
+h5py = "2.10.0"
+torch = {url = "https://download.pytorch.org/whl/cu101/torch-1.7.1%2Bcu101-cp38-cp38-linux_x86_64.whl"}
+tabulate = "^0.8.7"
+
+[tool.poetry.dev-dependencies]
+pudb = "^2019.2"
+ipython = "^7.19.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
