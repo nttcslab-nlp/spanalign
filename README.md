@@ -3,7 +3,7 @@ This repository includes the software described in "[SpanAlign: Sentence Alignme
 
 ## Setup
 This software is tested on the following.
-* GeForce RTX 2080Ti
+* 1 GeForce RTX 2080Ti
 * Python 3.8.6
 * CUDA 10.1
 * ILOG CLPEX 12.8.0.0
