@@ -6,7 +6,7 @@ This software is tested on the following.
 * 1 GeForce RTX 2080Ti
 * Python 3.8.6
 * CUDA 10.1
-* ILOG CLPEX 12.8.0.0
+* ILOG CLPEX 12.8.0.0 and 20.1 academic version
 * torch 1.7.1+cu101
 * transformers 4.1.1
 * nltk
@@ -78,6 +78,7 @@ $ python ../scripts/score.py -g ../data/sample.pair -t ./output/test/test.bidi.p
         2  0.000/0.000/0.000 (0)  0.000/0.000/0.000 (0)
         3  0.000/0.000/0.000 (0)  0.000/0.000/0.000 (1)
 ```
+We found that a part of this result is sometimes increased/decreased when we used a different architecture of GPU.
 
 ## License
 This software is released under the NTT License, see `LICENSE.txt`.
